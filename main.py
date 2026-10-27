@@ -9,7 +9,7 @@ from routers import (
     student_delete,
 )
 
-app = FastAPI(title="Student Management API")
+app = FastAPI(title="Shihab Ahmed ")
 
 app.include_router(students_list.router)
 app.include_router(student_detail.router)
